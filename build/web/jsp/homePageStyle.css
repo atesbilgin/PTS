@@ -1,0 +1,82 @@
+
+
+
+        h1
+	{
+		color:orange;
+		font-weight:500;
+		font-family:Papyrus;
+		font-size:30px;
+		/* background-color:yellow;*/
+		position: static;
+		bottom: 300;
+		right: 300;
+		padding-top:10px;
+		text-align: center;
+	}
+	.button
+	{
+		background-color: #cccccc; 
+		display:button;
+		/*type = "button";*/
+		/*color:blue;*/
+		margin-bottom:20px;
+		cursor: pointer;
+		padding: 0;
+		border: none;
+		background: none;
+	}
+	body 
+	{
+		background-image: url("mainBackground.jpg");
+		background-color: #cccccc;
+	}
+	
+	
+	p1
+	{
+		color:white;
+		font-family:Papyrus;
+		font-size:16px;
+		text-align: center;
+		background-color: #cccccc; 
+	}
+	p2
+	{
+		color:orange;
+		font-family:Verdana;
+		font-size:18px;
+		text-align: center;	
+	}
+	.grid-container
+	{
+		display: grid;
+		grid-template-column: auto auto auto;
+		position: absolute;
+		top: 25%;
+		left: 42%;
+}
+
+	.boardDiv
+	{
+		border-color: "black";
+		border-width: 5px;
+		float: left;
+		margin-left: 40px;
+	}
+        
+.jumbotron{
+    background-color:#2E2D88;
+    color:white;
+}
+/* Adds borders for tabs */
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+.nav-tabs {
+    margin-bottom: 0;
+}
+        
